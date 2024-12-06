@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Liste des villes</title>
+</head>
+<body>
+    <h1>Liste des villes</h1>
+        <ul>
+            <li th:each="ville : ${villes}">
+                <span th:text="${ville.nom}"></span>
+                <form th:action="@{/delete-ville}" method="post" style="display:inline;">
+                    <input type="hidden" name="id" th:value="${ville.id}" />
+                    <button type="submit">Supprimer</button>
+                </form>
+            </li>        </ul>
+        <a th:href="@{/}">Retour à l'accueil</a>
+</body>
+</html>

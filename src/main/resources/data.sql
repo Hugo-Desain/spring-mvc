@@ -1,0 +1,10 @@
+INSERT INTO ville (id, nom) VALUES (1, 'Paris');
+INSERT INTO ville (id, nom) VALUES (2, 'Lyon');
+INSERT INTO ville (id, nom) VALUES (3, 'Marseille');
+INSERT INTO ville (id, nom) VALUES (4, 'Grenoble');
+INSERT INTO ville (id, nom) VALUES (5, 'Nantes');
+INSERT INTO ville (id, nom) VALUES (6, 'Nice');
+INSERT INTO ville (id, nom) VALUES (7, 'Lilles');
+INSERT INTO ville (id, nom) VALUES (8, 'Rennes');
+INSERT INTO ville (id, nom) VALUES (9, 'Montpellier');
+INSERT INTO ville (id, nom) VALUES (10, 'Toulouse');
